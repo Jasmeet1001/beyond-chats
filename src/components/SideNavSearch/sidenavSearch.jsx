@@ -94,7 +94,7 @@ export default function SearchAppBar() {
             ))}
           </List>
           <List>
-            {["All mail", "Trash", "Spam"].map((text) => (
+            {["New Group", "New Channel", "Contacts", "Calls", "Saved Messages", "Settings"].map((text) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>
                   <ListItemText primary={text} />
