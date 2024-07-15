@@ -85,15 +85,6 @@ export default function SearchAppBar() {
           onClick={toggleDrawer(false)}
         >
           <List>
-            {["Inbox", "Starred", "Send email", "Drafts"].map((text) => (
-              <ListItem key={text} disablePadding>
-                <ListItemButton>
-                  <ListItemText primary={text} />
-                </ListItemButton>
-              </ListItem>
-            ))}
-          </List>
-          <List>
             {["New Group", "New Channel", "Contacts", "Calls", "Saved Messages", "Settings"].map((text) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>
