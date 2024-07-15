@@ -1,0 +1,52 @@
+.chat-messages {
+  padding: 10px;
+  background-image: url("./assets/main-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.message-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  background: rgba(255, 255, 255, 0);
+  margin: 10px 0;
+}
+
+.message-sender {
+  font-weight: bold;
+}
+
+.message-content {
+  margin: 5px 0;
+}
+
+.message-timestamp {
+  font-size: 0.8em;
+  color: #888;
+}
+
+.message-box {
+  padding: 10px;
+  border-radius: 10%;
+  width: 100%;
+  border-color: black;
+  background-color: white;
+}
+
+.custom-width {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.custom-bg-color {
+  background-image: url("./assets/main-bg.png");
+  background-size: cover;
+  background-position: center;
+  padding-left: 50px;
+}

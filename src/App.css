@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+}
+
+.chat-list-container {
+  width: 30%;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+  /* Add this to enable scrolling */
+  height: 100vh;
+  /* Full height */
+}
+
+.chat-messages-container {
+  width: 70%;
+  /* padding: 10px; */
+}
